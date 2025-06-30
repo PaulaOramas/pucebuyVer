@@ -1,0 +1,91 @@
+/* main.css */
+
+/* General */
+body {
+    background: #f8fbff; /* celeste claro */
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Título principal */
+h1, h2 {
+    color: #007acc; /* celeste oscuro */
+}
+
+/* Parrafos */
+p {
+    color: #555;
+    font-size: 1.1em;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #007acc; /* celeste oscuro */
+}
+.navbar .navbar-brand img {
+    filter: brightness(0) invert(1);
+}
+.navbar .nav-link {
+    color: #ffffff !important;
+}
+
+/* Footer */
+footer {
+    background-color: #e6f2fb;
+    color: #333;
+}
+footer h5 {
+    color: #007acc;
+}
+footer p {
+    font-size: 0.95em;
+    color: #444;
+}
+footer a {
+    color: #007acc;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #007acc;
+    border-color: #007acc;
+}
+.btn-primary:hover {
+    background-color: #005f99;
+    border-color: #005f99;
+}
+
+/* Controladores */
+#controllers ul {
+    padding: 0;
+    list-style: none;
+}
+#controllers li {
+    margin: 0.5em 0;
+}
+#controllers a {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid #007acc;
+    color: #007acc;
+    border-radius: 4px;
+    background-color: #fff;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+#controllers a:hover {
+    background-color: #007acc;
+    color: #fff;
+}
+
+/* Espaciado general */
+.container, .container-fluid {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
