@@ -81,6 +81,16 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100 border-0">
+                    <div class="card-body text-center">
+                        <i class="bi bi-file-earmark-text-fill" style="font-size:2.5rem;color:#0d6efd;"></i>
+                        <h5 class="card-title mt-3">Artículos</h5>
+                        <p class="card-text">Consulta y administra los artículos registrados.</p>
+                        <g:link controller="articulo" action="index" class="btn btn-primary mt-2">Ver Artículos</g:link>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </div>
